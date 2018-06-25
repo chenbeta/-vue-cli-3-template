@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Qs from 'qs';
 
-const URL = '.';
+const URL = '/api/';
 window.URL = URL;
 
 axios.interceptors.response.use(

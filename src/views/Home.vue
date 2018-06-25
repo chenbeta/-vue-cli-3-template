@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import HelloWorld from 'com/HelloWorld.vue';
 
 export default {
   name: 'asd',
@@ -15,7 +15,7 @@ export default {
     HelloWorld
   },
   created() {
-    this.http.get('/bxg_anon/index/findCourseGraduationList');
+    this.http.get('bxg_anon/user/sessionUser');
   }
 };
 </script>
