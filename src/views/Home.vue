@@ -13,6 +13,9 @@ export default {
   name: 'asd',
   components: {
     HelloWorld
+  },
+  created() {
+    this.http.get('/bxg_anon/index/findCourseGraduationList');
   }
 };
 </script>
