@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import ElementUI from 'element-ui';
+import common from '@/common/common';
 import App from './App.vue';
 import router from './router';
 import store from './vuex/index';
@@ -18,6 +19,7 @@ Vue.use(ElementUI);
 
 window.$http = $http;
 window.axios = axios;
+window.common = common;
 
 new Vue({
   router,

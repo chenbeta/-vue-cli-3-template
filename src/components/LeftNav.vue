@@ -12,5 +12,5 @@ export default {};
 </script>
 
 <style lang="stylus" scoped>
-@import '~styl/home/leftNav.styl'
+@import '~styl/components/leftNav.styl'
 </style>
